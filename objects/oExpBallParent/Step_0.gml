@@ -1,0 +1,1 @@
+if (canFly) move_towards_point(oPlayerGreen.x, oPlayerGreen.y, 5);
