@@ -31,10 +31,13 @@ if (!oPause.pause) {
 		xSpd = xDir * dialgonalMoveSpd;
 		ySpd = yDir * dialgonalMoveSpd;
 	}
+	
+	if (x + xSpd <= 0 or x + xSpd >= room_width) xSpd = 0;
+	if (y + ySpd <= 0 or y + ySpd >= room_height) ySpd = 0;
 
 	if (collisions) {
-		if place_meeting(x + xSpd, y, oEnemyRed) xSpd = 0;
-		if place_meeting(x, y + ySpd, oEnemyRed) ySpd = 0;
+		if (place_meeting(x + xSpd, y, oEnemyRed)) xSpd = 0;
+		if (place_meeting(x, y + ySpd, oEnemyRed)) ySpd = 0;
 	}
 
 	// move player
