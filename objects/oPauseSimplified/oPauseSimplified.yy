@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"oPortalGreen",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oPauseSimplified",
+  "eventList":[],
   "managed":true,
-  "name":"oPortalGreen",
+  "name":"oPauseSimplified",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"system",
+    "path":"folders/Objects/system.yy",
   },
-  "parentObjectId":{
-    "name":"oPortal",
-    "path":"objects/oPortal/oPortal.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sPortalGreen",
-    "path":"sprites/sPortalGreen/sPortalGreen.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

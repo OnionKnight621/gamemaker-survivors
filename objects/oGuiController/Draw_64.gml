@@ -2,7 +2,7 @@ var enemiesInstancesStr = $"enemies: {instance_number(oEnemyParent)}"
 draw_text_ext_transformed(
 	20, 20, 
 	enemiesInstancesStr, 
-	0, 500, 4, 4, 0);
+	0, 500, 2, 2, 0);
 	
 var lvlString = $"lvl: {oPlayerGreen.lvl}";
 var _view_values = room_get_viewport(Room1, 0);
@@ -11,7 +11,7 @@ draw_text_ext_transformed(
 	lvlPositionX, 
 	20, 
 	lvlString, 
-	0, 500, 4, 4, 0);
+	0, 500, 2, 2, 0);
 	
 var xpCurrent = oPlayerGreen.xp;
 var xpNext = oPlayerGreen.xpToLevlUp;

@@ -19,7 +19,7 @@ if (_num > 0) {
 			 _list[| i].hp -= dmg;
 			 
 			 //dmg num
-			 with instance_create_layer( _list[| i].x,  _list[| i].y-35, "DmgNumbers", oDamageNuberFont) {
+			 with instance_create_layer( _list[| i].x,  _list[| i].y-35, "DmgNumbers", oDamageNumberFont) {
 				damage = oWeapon_Parent.dmg;
 			 }
 			 

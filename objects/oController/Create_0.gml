@@ -7,3 +7,6 @@ alarm[1] = alarmSpawnTime;
 
 alarmCollectTime = 20;
 alarm[2] = alarmCollectTime;
+
+portalActivated = false;
+portalTextTimer = 0;
